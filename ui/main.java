@@ -9,7 +9,8 @@ public class main {
         int choice;
         
          do {
-            choice = menuManager.menu();
+             choice = menuManager.menu();
+            
             switch (choice) {
                 case 1:
                     menuManager.displayAllProducts();
